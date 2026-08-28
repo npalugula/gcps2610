@@ -16,7 +16,7 @@ view: employee {
     sql: ${TABLE}.Id ;;
   }
 
-  dimension: month {
+  dimension: month1 {
     type: number
     sql: ${TABLE}.Month ;;
   }
