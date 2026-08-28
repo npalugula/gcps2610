@@ -20,6 +20,10 @@ view: employee {
     type: number
     sql: ${TABLE}.Month ;;
   }
+  dimension: incoorect_sql {
+    sql: SELECT * FROM INVALID SYNTAX ${TABLE}.salary ;;
+    type: string
+  }
 
   dimension: salary {
     type: number
