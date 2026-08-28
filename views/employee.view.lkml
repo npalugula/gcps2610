@@ -25,6 +25,10 @@ view: employee {
     type: number
     sql: ${TABLE}.salary ;;
   }
+  dimension: salary1 {
+    type: number
+    sql: ${TABLE}.column_does_not_exist ;;
+  }
   measure: count {
     type: count
   }
