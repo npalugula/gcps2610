@@ -9,7 +9,7 @@ view: employee {
 
     # Here's what a typical dimension looks like in LookML.
     # A dimension is a groupable field that can be used to filter query results.
-    # This dimension will be called "ID" in Explore.
+    # This dimension will be called "ID" in Explore. pull
 
   dimension: id {
     type: number
